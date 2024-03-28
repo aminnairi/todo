@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "private": false,
   "name": "@aminnairi/todo",
   "description": "The best todo manager ever",
