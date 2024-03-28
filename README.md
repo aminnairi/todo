@@ -13,3 +13,17 @@ npm install
 ```bash
 yarn install
 ```
+
+## Usage
+
+### NPM
+
+```bash
+npx @aminnairi/todo
+```
+
+### Yarn
+
+```bash
+yarn @aminnairi/todo
+```
