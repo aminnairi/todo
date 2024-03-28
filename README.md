@@ -16,7 +16,7 @@ yarn install
 
 ## Usage
 
-### NPM
+### NPX
 
 ```bash
 npx @aminnairi/todo
@@ -25,5 +25,5 @@ npx @aminnairi/todo
 ### Yarn
 
 ```bash
-yarn @aminnairi/todo
+yarn dlx @aminnairi/todo
 ```
