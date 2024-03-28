@@ -1,0 +1,27 @@
+{
+  "private": false,
+  "name": "@aminnairi/todo",
+  "description": "The best todo manager ever",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aminnairi/todo#readme",
+  "license": "GPL-3.0-or-later",
+  "main": "src/index.js",
+  "files": [
+    "dist"
+  ],
+  "bin": "dist/index.js",
+  "bugs": {
+    "url": "https://github.com/aminnairi/todo/issues"
+  },
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminnairi/todo.git"
+  },
+  "dependencies": {
+    "rollup": "4.13.1"
+  }
+}
