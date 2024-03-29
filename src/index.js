@@ -3,6 +3,7 @@
 import { createInterface } from "readline/promises";
 import { stdin, stdout } from "process";
 import { randomUUID } from "crypto";
+import { getMenu } from "./displayMenu";
 
 const todos = [];
 
@@ -12,9 +13,9 @@ const readlineInterface = createInterface({
 });
 
 const main = async () => {
-  console.log("What do you want to do?");
-  console.log("1. Create a todo");
-  console.log("0. Quit this script");
+  getMenu().forEach(textMenu => {
+    console.log(textMenu);
+  });
 
   const answer = await readlineInterface.question("Your choice: ");
   const choice = Number(answer.trim());
