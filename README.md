@@ -27,3 +27,7 @@ npx @aminnairi/todo
 ```bash
 yarn dlx @aminnairi/todo
 ```
+
+## For contributors
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
