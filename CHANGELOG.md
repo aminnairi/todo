@@ -13,7 +13,7 @@ None.
 
 ### Minor changes
 
-- Added a changelog
+- Added a changelog ([#11](https://github.com/aminnairi/todo/pull/11))
 
 ### Bug & security fixes
 
