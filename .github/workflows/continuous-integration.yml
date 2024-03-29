@@ -6,7 +6,8 @@ on:
     - development
     
 jobs:
-  - name: Test that the project respect the spec
+  test:
+    name: Test the project
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
