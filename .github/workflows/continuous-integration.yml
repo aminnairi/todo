@@ -6,17 +6,17 @@ on:
     - development
     
 jobs:
-  name: Test that the project respect the spec
-  runs-on: ubuntu-20.04
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Install the dependencies Node.js
-      run: npm install
+  - name: Test that the project respect the spec
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Install the dependencies Node.js
+        run: npm install
 
-    - name: Build the project
-      run: npm run build
+      - name: Build the project
+        run: npm run build
 
-    - name: Test the project
-      run: npm test
+      - name: Test the project
+        run: npm test
