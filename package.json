@@ -8,6 +8,7 @@
   "license": "GPL-3.0-or-later",
   "main": "src/index.js",
   "scripts": {
+    "test": "vitest src",
     "build": "rollup --config rollup.config.js"
   },
   "files": [
@@ -26,7 +27,8 @@
     "url": "https://github.com/aminnairi/todo.git"
   },
   "dependencies": {
-    "rollup": "4.13.1"
+    "rollup": "4.13.1",
+    "vitest": "^1.4.0"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "0.4.4"
