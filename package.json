@@ -3,7 +3,7 @@
   "private": false,
   "name": "@aminnairi/todo",
   "description": "The best todo manager ever",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/aminnairi/todo#readme",
   "license": "GPL-3.0-or-later",
   "main": "src/index.js",
